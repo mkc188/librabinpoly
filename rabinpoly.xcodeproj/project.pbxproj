@@ -6,8 +6,15 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		238B13651AA80BA7000EB175 /* rabinpoly.c in Sources */ = {isa = PBXBuildFile; fileRef = 238B13631AA80BA7000EB175 /* rabinpoly.c */; };
+		238B13661AA80BA7000EB175 /* rabinpoly.h in Headers */ = {isa = PBXBuildFile; fileRef = 238B13641AA80BA7000EB175 /* rabinpoly.h */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		238B135C1AA80B47000EB175 /* librabinpoly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = librabinpoly.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		238B13631AA80BA7000EB175 /* rabinpoly.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rabinpoly.c; sourceTree = "<group>"; };
+		238B13641AA80BA7000EB175 /* rabinpoly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rabinpoly.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +31,8 @@
 		238B13531AA80B47000EB175 = {
 			isa = PBXGroup;
 			children = (
+				238B13631AA80BA7000EB175 /* rabinpoly.c */,
+				238B13641AA80BA7000EB175 /* rabinpoly.h */,
 				238B135D1AA80B47000EB175 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +52,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				238B13661AA80BA7000EB175 /* rabinpoly.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +112,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				238B13651AA80BA7000EB175 /* rabinpoly.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
